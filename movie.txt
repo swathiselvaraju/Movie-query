@@ -1,0 +1,9 @@
+movie.db;
+CREATE TABLE movie(movie_name text,actor text,actoress text,director text,year_of_release integer NOT NULL);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('Sakar','Vijay','Keerthy Suresh','A.R.Murgadoss',2018,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('Charlie','Dulquer Salmaan','Parvathy','Martin Prakkat',2015,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('KGF','Yash','Srindhi Shetty','Prashanth Neel',2018,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('Mudhal nee mudivum Nee','Kishen Das','Meetha Raghunath','Darbuka siva',2022,);
+//for query
+SELECT * FROM movies;
+SELECT movie FROM movies WHERE actor='Vijay';
